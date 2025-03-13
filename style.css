@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #cb4789;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #cd91a9;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    background-color: #b7057f;
+    border-radius: 5px;
+}
+
+.hero {
+    background-image: url('images/flower-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 48px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.flower-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.flower-item {
+    width: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    transition: transform 0.3s;
+}
+
+.flower-item img {
+    width: 100%;
+    height: auto;
+}
+
+.flower-item h3 {
+    padding: 15px;
+    background-color: #85164e;
+    color: white;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.flower-item p {
+    padding: 15px;
+    font-size: 16px;
+}
+
+.flower-item:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #333;
+    color: rgb(236, 221, 221);
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #ff66b2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #cc2999;
+}
